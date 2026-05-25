@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glenwood Hair & Beauty</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ============================================================ NAV -->
+  <nav class="navbar">
+    <a href="#" class="nav-logo">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Glenwood <span>&nbsp;Hair &amp; Beauty</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#book">Book Appointment</a>
+      <a href="#house-calls">House Calls</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <span class="nav-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+      <a href="#">Login</a>
+      <a href="#book" class="nav-book">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================ HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-star" style="font-size:.6rem;"></i>
+        Premium Hair &amp; Beauty
+      </div>
+      <h1>
+        Elevate Your<br>
+        <span class="italic-pink">Natural Beauty</span>
+      </h1>
+      <p>Expert braiding, weaving, wig installation, and natural hair care. Experience luxury hair services in the heart of Glenwood, Durban.</p>
+      <div class="hero-btns">
+        <a href="#book" class="btn-primary">
+          <i class="fa-regular fa-calendar"></i> Book Appointment &nbsp;&rarr;
+        </a>
+        <a href="#shop" class="btn-outline">
+          <i class="fa-regular fa-bag-shopping"></i> Shop Products
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-val">500+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div>
+          <div class="stat-val">5+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="stat-val">20+</div>
+          <div class="stat-label">Services</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ SERVICES -->
+  <section class="services" id="services">
+    <p class="section-label">What We Offer</p>
+    <h2 class="section-title">Our <span class="italic-pink">Services</span></h2>
+    <p class="section-sub">From intricate braiding to flawless wig installations, we bring artistry and care to every style.</p>
+
+    <div class="services-grid">
+
+      <!-- Braiding -->
+      <div class="service-card">
+        <div class="service-img" style="background:#c9b8b0;">
+          <span style="display:flex;align-items:center;justify-content:center;height:100%;color:#6b4f42;font-size:3rem;"><i class="fa-solid fa-scissors"></i></span>
+          <div class="service-img-label">
+            <i class="fa-solid fa-layer-group" style="font-size:.75rem;"></i> Braiding
+          </div>
+        </div>
+        <div class="service-body">
+          <p>Cornrows, box braids, twists &amp; more</p>
+          <div class="service-footer">
+            <span class="price">From R250</span>
+            <a href="#book" class="book-link">Book Now <i class="fa-solid fa-arrow-right" style="font-size:.7rem;"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weaving -->
+      <div class="service-card">
+        <div class="service-img" style="background:#d4c4b5;">
+          <span style="display:flex;align-items:center;justify-content:center;height:100%;color:#6b4f42;font-size:3rem;"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+          <div class="service-img-label">
+            <i class="fa-solid fa-basket-shopping" style="font-size:.75rem;"></i> Weaving
+          </div>
+        </div>
+        <div class="service-body">
+          <p>Full &amp; partial weave installations</p>
+          <div class="service-footer">
+            <span class="price">From R500</span>
+            <a href="#book" class="book-link">Book Now <i class="fa-solid fa-arrow-right" style="font-size:.7rem;"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wig Installation -->
+      <div class="service-card">
+        <div class="service-img" style="background:#bec8c4;">
+          <span style="display:flex;align-items:center;justify-content:center;height:100%;color:#3d5a52;font-size:3rem;"><i class="fa-solid fa-hat-cowboy-side"></i></span>
+          <div class="service-img-label">
+            <i class="fa-solid fa-crown" style="font-size:.75rem;"></i> Wig Installation
+          </div>
+        </div>
+        <div class="service-body">
+          <p>Lace front, closure &amp; custom wigs</p>
+          <div class="service-footer">
+            <span class="price">From R400</span>
+            <a href="#book" class="book-link">Book Now <i class="fa-solid fa-arrow-right" style="font-size:.7rem;"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hair Treatments -->
+      <div class="service-card">
+        <div class="service-img" style="background:#c9b8c2;">
+          <span style="display:flex;align-items:center;justify-content:center;height:100%;color:#5a3650;font-size:3rem;"><i class="fa-solid fa-droplet"></i></span>
+          <div class="service-img-label">
+            <i class="fa-solid fa-cut" style="font-size:.75rem;"></i> Hair Treatments
+          </div>
+        </div>
+        <div class="service-body">
+          <p>Deep conditioning &amp; protein treatments</p>
+          <div class="service-footer">
+            <span class="price">From R200</span>
+            <a href="#book" class="book-link">Book Now <i class="fa-solid fa-arrow-right" style="font-size:.7rem;"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Natural Hair Care -->
+      <div class="service-card">
+        <div class="service-img" style="background:#b8c4c0;">
+          <span style="display:flex;align-items:center;justify-content:center;height:100%;color:#2d4a40;font-size:3rem;"><i class="fa-solid fa-leaf"></i></span>
+          <div class="service-img-label">
+            <i class="fa-solid fa-seedling" style="font-size:.75rem;"></i> Natural Hair Care
+          </div>
+        </div>
+        <div class="service-body">
+          <p>Protective styling &amp; scalp care</p>
+          <div class="service-footer">
+            <span class="price">From R300</span>
+            <a href="#book" class="book-link">Book Now <i class="fa-solid fa-arrow-right" style="font-size:.7rem;"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#services" class="view-all">View All Services <i class="fa-solid fa-arrow-right" style="font-size:.75rem;"></i></a>
+  </section>
+
+  <!-- ============================================================ PRODUCTS -->
+  <section class="products" id="shop">
+    <p class="section-label">Shop Our Collection</p>
+    <h2 class="section-title">Featured <span class="italic-pink">Products</span></h2>
+    <p class="section-sub">Premium wigs, weaves, extensions, and hair care products delivered to your door.</p>
+
+    <div class="products-grid">
+
+      <div class="product-card">
+        <div class="product-img" style="background:#d4c8be; display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3.5rem; color:#8b6f5e;"><i class="fa-solid fa-hat-cowboy-side"></i></span>
+        </div>
+        <div class="product-body">
+          <p class="product-cat">Wigs</p>
+          <p class="product-name">HD Lace Front Wig 22"</p>
+          <div class="stars"><i class="fa-solid fa-star"></i> 4.9</div>
+          <p class="product-price">R2 500</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" style="background:#e8e4df; display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3.5rem; color:#6b5a4a;"><i class="fa-solid fa-bottle-droplet"></i></span>
+        </div>
+        <div class="product-body">
+          <p class="product-cat">Hair Products</p>
+          <p class="product-name">Argan Hair Growth Oil 100ml</p>
+          <div class="stars"><i class="fa-solid fa-star"></i> 4.7</div>
+          <p class="product-price">R350</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" style="background:#d4b8b8; display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3.5rem; color:#7a3f3f;"><i class="fa-solid fa-wand-sparkles"></i></span>
+        </div>
+        <div class="product-body">
+          <p class="product-cat">Hair Extensions</p>
+          <p class="product-name">Clip-In Extensions 18"</p>
+          <div class="stars"><i class="fa-solid fa-star"></i> 4.6</div>
+          <p class="product-price">R800</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" style="background:#c8cec4; display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3.5rem; color:#4a5e42;"><i class="fa-solid fa-hat-cowboy"></i></span>
+        </div>
+        <div class="product-body">
+          <p class="product-cat">Wigs</p>
+          <p class="product-name">4x4 Closure Wig 16"</p>
+          <div class="stars"><i class="fa-solid fa-star"></i> 4.5</div>
+          <p class="product-price">R1 800</p>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#shop" class="view-all" style="margin-top:2.5rem;">View All Products <i class="fa-solid fa-arrow-right" style="font-size:.75rem;"></i></a>
+  </section>
+
+  <!-- ============================================================ HOUSE CALLS -->
+  <section class="house-calls" id="house-calls">
+    <div class="hc-content">
+      <p class="hc-label">New Service</p>
+      <h2>Salon Quality,<br><span class="italic-pink">At Your Doorstep</span></h2>
+      <p>Can't make it to the salon? We'll bring the salon to you! Our professional stylists offer house call services throughout Durban.</p>
+      <div class="hc-features">
+        <div class="hc-feat">
+          <div class="hc-feat-icon"><i class="fa-solid fa-location-dot" style="color:var(--pink);font-size:.8rem;"></i></div>
+          We come to your location in Durban
+        </div>
+        <div class="hc-feat">
+          <div class="hc-feat-icon"><i class="fa-regular fa-clock" style="color:var(--pink);font-size:.8rem;"></i></div>
+          Flexible scheduling to fit your lifestyle
+        </div>
+        <div class="hc-feat">
+          <div class="hc-feat-icon"><i class="fa-solid fa-scissors" style="color:var(--pink);font-size:.8rem;"></i></div>
+          Same premium service, at your comfort
+        </div>
+      </div>
+      <a href="#book" class="btn-primary">Request House Call &nbsp;&rarr;</a>
+    </div>
+
+    <div class="hc-image">
+      <div style="background:#3d3535;border-radius:16px;height:340px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;">
+        <span style="font-size:8rem;opacity:.25;color:#fff;"><i class="fa-solid fa-scissors"></i></span>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;color:rgba(255,255,255,.7);">
+          <i class="fa-solid fa-users" style="font-size:3rem;color:var(--pink);margin-bottom:1rem;"></i>
+          <p style="font-size:.9rem;">Professional Stylists</p>
+          <p style="font-size:.75rem;color:rgba(255,255,255,.5);margin-top:.3rem;">Available across Durban</p>
+        </div>
+      </div>
+      <div class="hc-badge">
+        <span class="hc-badge-icon"><i class="fa-solid fa-location-dot"></i></span>
+        House Call &nbsp;<span style="font-size:.72rem;color:var(--text-muted);">Available across Durban</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ TESTIMONIALS -->
+  <section class="testimonials">
+    <p class="section-label">What Our Clients Say</p>
+    <h2 class="section-title">Client <span class="italic-pink">Testimonials</span></h2>
+
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars-testi">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="testi-quote">&ldquo;</div>
+        <p class="testi-text">"Absolutely love my braids! The team is so talented and the salon is stunning. I always leave feeling like a queen."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">T</div>
+          <span class="testi-name">Thandeka M.</span>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="stars-testi">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="testi-quote">&ldquo;</div>
+        <p class="testi-text">"Best wig installation in Durban! Natural-looking and so comfortable. The house call service is a game-changer."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:#6b8e8a;">N</div>
+          <span class="testi-name">Noluthando K.</span>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="stars-testi">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="testi-quote">&ldquo;</div>
+        <p class="testi-text">"My go-to salon for weaves. Professional, affordable, and they really care about hair health. Highly recommend!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:#8e7a6b;">A</div>
+          <span class="testi-name">Ayanda P.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ FOOTER -->
+  <footer id="contact">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="footer-brand-logo">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:.4rem;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          Glenwood <span>Hair &amp; Beauty</span>
+        </div>
+        <p>Your premier destination for hair braiding, weaving, wig installation, and natural hair care in Glenwood, Durban.</p>
+        <div class="footer-socials">
+          <div class="footer-social"><i class="fa-brands fa-instagram"></i></div>
+          <div class="footer-social"><i class="fa-brands fa-facebook-f"></i></div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a>
+        <a href="#book">Book Appointment</a>
+        <a href="#house-calls">House Calls</a>
+        <a href="#shop">Shop Products</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <!-- Our Services -->
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <a href="#services">Hair Braiding</a>
+        <a href="#services">Weaving</a>
+        <a href="#services">Wig Installation</a>
+        <a href="#services">Hair Treatments</a>
+        <a href="#services">Natural Hair Care</a>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot contact-icon"></i>
+          <span>123 Glenwood Road, Glenwood, Durban, 4001</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone contact-icon"></i>
+          <span>+27 31 123 4567</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa-regular fa-envelope contact-icon"></i>
+          <span>info@glenwoodbeauty.co.za</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa-regular fa-clock contact-icon"></i>
+          <span>Mon - Fri: 8:00 AM – 6:00 PM<br>Sat: 8:00 AM – 4:00 PM<br>Sun: Closed</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Glenwood Hair &amp; Beauty Salon. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
